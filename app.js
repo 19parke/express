@@ -2,7 +2,7 @@ import express from 'express';
 import connect from './connect/connect.js';
 import cors from 'cors';
 
-// 1. mongoDB 연결
+// 1. mongoDB 연결, connect 사용
 connect()
 
 // 2. 서버 실행
